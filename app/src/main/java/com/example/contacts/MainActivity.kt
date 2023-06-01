@@ -19,22 +19,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun displayContacts(){
-        var contact1 = ContactData("Hannah Wanjiru", "+254786123432",
-            "hannWanjiru@gmail.com", "Han")
-        var contact2 = ContactData("Dana Adams", "+254734567654",
-            "danAdams@gmail.com", "DanaA")
-        var contact3 = ContactData("Sparks LIz", "+254712345676",
-            "lizziesparks@gmail.com", "sparkie")
-        var contact4 = ContactData("Ranee Mwangi", "+254709876549",
-            "ranemwa@gmail.com", "ram")
-        var contact5 = ContactData("Sean Omondi", "+254752323454",
-            "omondiseab@gmail.com", "omosh")
-        var contact6 = ContactData("Maxine Savara", "+254767542311",
-            "maxsav@gmail.com", "maxi")
-        var contact7 = ContactData("Val Brandon", "+254734567876",
-            "valb@gmail.com", "valndon")
-        var contact8 = ContactData("Saru Anderson", "+25471234654",
-            "saruad@gmail.com", "son")
+        var contact1 = ContactData("Rose", "+254786123432",
+            "roseanyango@gmail.com", "Rose")
+        var contact2 = ContactData("Shellyne Mellyne", "+254723467654",
+            "shellynemellyne@gmail.com", "Shellyne")
+        var contact3 = ContactData("Mitch Odede", "+2547123400076",
+            "mitch@gmail.com", "Mitch")
+        var contact4 = ContactData("Nova Blessings", "+254709123459",
+            "novablessings@gmail.com", "Nova")
+        var contact5 = ContactData("Noel Favour", "+254753456784",
+            "noelfavour@gmail.com", "Noel")
+        var contact6 = ContactData("Israel Hazel", "+254769681011",
+            "israelhazel@gmail.com", "Israel")
+        var contact7 = ContactData("Anne Christine", "+254787654876",
+            "annechristine@gmail.com", "TinTin")
+        var contact8 = ContactData("Wayne Balala", "+25470987654",
+            "waynebalala@gmail.com", "Wayne")
 
 
         var contactLists = listOf<ContactData>(contact1, contact2, contact3, contact4, contact5,
