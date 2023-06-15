@@ -19,21 +19,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun displayContacts(){
-        var contact1 = ContactData("Rose", "+254786123432",
+        var contact1 = ContactData("https://i.pinimg.com/236x/8a/15/f5/8a15f59de39eda094573caf088c50dac.jpg", "+254786123432",
             "roseanyango@gmail.com", "Rose")
-        var contact2 = ContactData("Shellyne Mellyne", "+254723467654",
+        var contact2 = ContactData("https://i.pinimg.com/236x/ef/46/6d/ef466db84b5a883e3b910a71deaab59d.jpg", "+254723467654",
             "shellynemellyne@gmail.com", "Shellyne")
-        var contact3 = ContactData("Mitch Odede", "+2547123400076",
+        var contact3 = ContactData("https://i.pinimg.com/236x/dc/d3/f7/dcd3f7c9731986685b603f7546e30cff.jpg", "+2547123400076",
             "mitch@gmail.com", "Mitch")
-        var contact4 = ContactData("Nova Blessings", "+254709123459",
+        var contact4 = ContactData("https://i.pinimg.com/236x/68/99/7d/68997d5898db2dbcc859c2508a123ffb.jpg", "+254709123459",
             "novablessings@gmail.com", "Nova")
-        var contact5 = ContactData("Noel Favour", "+254753456784",
+        var contact5 = ContactData("https://i.pinimg.com/236x/e3/a7/6d/e3a76d17842665543b46484291781eae.jpg", "+254753456784",
             "noelfavour@gmail.com", "Noel")
-        var contact6 = ContactData("Israel Hazel", "+254769681011",
+        var contact6 = ContactData("https://i.pinimg.com/236x/bc/50/8d/bc508d8019a4cf121316516757ae66f8.jpg", "+254769681011",
             "israelhazel@gmail.com", "Israel")
-        var contact7 = ContactData("Anne Christine", "+254787654876",
+        var contact7 = ContactData("https://i.pinimg.com/236x/ca/85/4d/ca854d69329e452a2f392733ad761d82.jpg", "+254787654876",
             "annechristine@gmail.com", "TinTin")
-        var contact8 = ContactData("Wayne Balala", "+25470987654",
+        var contact8 = ContactData("https://i.pinimg.com/236x/80/b1/49/80b14905c6d93dca1ea5ab0ac492c7ef.jpg", "+25470987654",
             "waynebalala@gmail.com", "Wayne")
 
 

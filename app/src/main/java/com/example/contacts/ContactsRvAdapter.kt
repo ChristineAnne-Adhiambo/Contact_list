@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.contacts.databinding.ContactListBinding
+import com.squareup.picasso.Picasso
 
 class ContactsRVAdapter(var contactList: List<ContactData>): RecyclerView.Adapter<ContactViewHolder>() {
 
@@ -21,6 +22,13 @@ class ContactsRVAdapter(var contactList: List<ContactData>): RecyclerView.Adapte
             tvName.text=contactsDetails.name
             tvEmail.text=contactsDetails.email
             tvNumber.text=contactsDetails.phoneNumber
+            Picasso
+                .get()
+                .load(contactsDetails.image)
+                .resize(80,80)
+                .centerCrop()
+                .into(holder.contacts.imageView4)
+
         }
 
     }
