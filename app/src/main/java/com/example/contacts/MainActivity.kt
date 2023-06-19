@@ -1,5 +1,6 @@
 package com.example.contacts
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -11,6 +12,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.floatingbtn.setOnClickListener{
+            val intent = Intent (this,addContact::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onResume() {
